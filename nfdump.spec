@@ -1,5 +1,4 @@
 Summary:	Netflow processing tools
-Summary(pl):	-
 Name:		nfdump
 Version:	1.5.1
 Release:	1
@@ -7,7 +6,7 @@ License:	BSD
 Group:		Applications
 Source0:	http://dl.sourceforge.net/nfdump/%{name}-%{version}.tar.gz
 # Source0-md5:	76325d91d5061341ffcc2b43c9f2c400
-Source1:	http://www.ripe.net/ripe/meetings/ripe-50/presentations/ripe50-plenary-tue-nfsen-nfdump.pdf
+Source1:	http://www.ripe.net/ripe/meetings/ripe-50/presentations/ripe50-plenary-tue-nfsen-%{name}.pdf
 # Source1-md5:	76325d91d5061341ffcc2b43c9f2c400
 URL:		http://nfdump.sourceforge.net/
 BuildRequires:	bison
@@ -17,8 +16,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The nfdump tools collect and process netflow data on the command line.
 They are part of the NfSen project.
-
-%description -l pl
 
 %prep
 %setup -q
