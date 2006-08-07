@@ -1,14 +1,14 @@
 Summary:	Netflow processing tools
 Summary(pl):	Narzêdzia do przetwarzania ruchu sieciowego
 Name:		nfdump
-Version:	1.5.1
+Version:	1.5.2
 Release:	1
 License:	BSD
 Group:		Applications
 Source0:	http://dl.sourceforge.net/nfdump/%{name}-%{version}.tar.gz
-# Source0-md5:	76325d91d5061341ffcc2b43c9f2c400
+# Source0-md5:	4447c3338cc7eae6eee5288889f27d28
 Source1:	http://www.ripe.net/ripe/meetings/ripe-50/presentations/ripe50-plenary-tue-nfsen-%{name}.pdf
-# Source1-md5:	76325d91d5061341ffcc2b43c9f2c400
+# Source1-md5:	6240259f9e54bc78894e99ea1deef776
 URL:		http://nfdump.sourceforge.net/
 BuildRequires:	bison
 BuildRequires:	flex
