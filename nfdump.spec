@@ -1,5 +1,5 @@
 Summary:	Netflow processing tools
-Summary(pl.UTF-8):   Narzędzia do przetwarzania ruchu sieciowego
+Summary(pl.UTF-8):	Narzędzia do przetwarzania ruchu sieciowego
 Name:		nfdump
 Version:	1.5.2
 Release:	1
