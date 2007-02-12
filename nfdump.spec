@@ -1,5 +1,5 @@
 Summary:	Netflow processing tools
-Summary(pl):	Narzêdzia do przetwarzania ruchu sieciowego
+Summary(pl.UTF-8):   NarzÄ™dzia do przetwarzania ruchu sieciowego
 Name:		nfdump
 Version:	1.5.2
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The nfdump tools collect and process netflow data on the command line.
 They are part of the NfSen project.
 
-%description -l pl
-Narzêdzia nfdump zbieraj± i przetwarzaj± dane z ruchu sieciowego
-(netflow) z linii poleceñ. S± czê¶ci± projektu NfSen.
+%description -l pl.UTF-8
+NarzÄ™dzia nfdump zbierajÄ… i przetwarzajÄ… dane z ruchu sieciowego
+(netflow) z linii poleceÅ„. SÄ… czÄ™Å›ciÄ… projektu NfSen.
 
 %prep
 %setup -q
