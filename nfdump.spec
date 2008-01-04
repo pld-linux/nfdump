@@ -1,12 +1,12 @@
 Summary:	Netflow processing tools
 Summary(pl.UTF-8):	Narzędzia do przetwarzania ruchu sieciowego
 Name:		nfdump
-Version:	1.5.2
+Version:	1.5.6
 Release:	1
 License:	BSD
 Group:		Applications
 Source0:	http://dl.sourceforge.net/nfdump/%{name}-%{version}.tar.gz
-# Source0-md5:	4447c3338cc7eae6eee5288889f27d28
+# Source0-md5:	2fb8b467cceb6f43bac5da4be8bed771
 Source1:	http://www.ripe.net/ripe/meetings/ripe-50/presentations/ripe50-plenary-tue-nfsen-%{name}.pdf
 # Source1-md5:	6240259f9e54bc78894e99ea1deef776
 URL:		http://nfdump.sourceforge.net/
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 install *.1 $RPM_BUILD_ROOT%{_mandir}/man1
-install nfcapd nfdump nfgen nfprofile nfreplay nftest $RPM_BUILD_ROOT%{_bindir}
+install nfcapd nfdump nfexpire nfgen nfreplay nftest $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
