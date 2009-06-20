@@ -27,7 +27,7 @@ Narzędzia nfdump zbierają i przetwarzają dane z ruchu sieciowego
 
 %build
 %configure
-%{__make}
+%{__make} -j1
 
 %install
 rm -rf $RPM_BUILD_ROOT
