@@ -4,12 +4,12 @@
 Summary:	Netflow processing tools
 Summary(pl.UTF-8):	Narzędzia do przetwarzania ruchu sieciowego
 Name:		nfdump
-Version:	1.7.5
+Version:	1.7.7
 Release:	1
 License:	BSD
 Group:		Applications
 Source0:	https://github.com/phaag/nfdump/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	a22849da21e022946ff735a31d69a9ce
+# Source0-md5:	9a11af046f10519c6f65772fead19d1e
 Source1:	http://www.ripe.net/ripe/meetings/ripe-50/presentations/ripe50-plenary-tue-nfsen-%{name}.pdf
 # Source1-md5:	6240259f9e54bc78894e99ea1deef776
 URL:		https://github.com/phaag/nfdump
